@@ -18,7 +18,7 @@
 3. Make sure to set the correct permissions for the web server
     - **read/write**: `./web/tmp` (temporary directory for file exports)
     - **read**: `./config/config.php`(generated configuration file, **IMPORTANT**: never delete/overwrite this file as it contains the DB configuration, such as db and password)
-4. Secure `.config` folder -- make sure all rules contained in `./config/.htaccess` are executed. You might need to allow this in your server's `httpd.conf` / `apache2.conf` file via:
+4. Secure `./config` folder -- make sure all rules contained in `./config/.htaccess` are executed. You might need to allow this in your server's `httpd.conf` / `apache2.conf` file via:
 
     ```
     # Allow '.htaccess' overrides in ontis-tool folder:
