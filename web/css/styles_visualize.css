@@ -1,0 +1,79 @@
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.annot-gallery-wrapper-inner {
+  padding: 5px;
+  width: 95%;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+.entry-wrapper {
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper {
+  /* max-width: 400px; */
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#save {
+  /* font-size: xx-large; */
+  /* width: 10px;
+  height: 10px; */
+}
+
+input[type="text"] {
+  font-size: 18px;
+}
+
+textarea {
+  font-size: 18px;
+}
+
+#userInfo {
+  display: none;
+  /* visibility: hidden; */
+  /* text-align: center; */
+  /* height: 37px; */
+}
+
+#pageChangeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  border-top: dotted 2px #ccc;
+  border-bottom: dotted 2px #ccc;
+  width: 95%;
+  text-align: center;
+  overflow: hidden;
+}
+#pageChangeInput {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input.largerCheckbox {
+  width: 24px;
+  height: 24px;
+}

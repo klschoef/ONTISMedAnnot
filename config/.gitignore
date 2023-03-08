@@ -1,0 +1,6 @@
+config.php
+prepare_db*
+dump_db.sh
+restore_db.sh
+db_upgrade-1.0-1.2.sql
+db_dump.sql

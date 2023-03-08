@@ -1,0 +1,92 @@
+.left-header {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+}
+.left-header a:link,
+a:visited {
+  text-decoration: none;
+  color: #74a9cf;
+  padding: 2px;
+  border: 2px solid white;
+  /* opacity: 0.5; */
+}
+.left-header a:hover {
+  text-decoration: none;
+  color: #045a8d;
+  border: 2px dotted #045a8d;
+  /* opacity: 0.8!important; */
+}
+.left-header a:active {
+  text-decoration: none;
+  color: #045a8d;
+}
+.highlight {
+  background-color: #bdc9e1;
+  color: #045a8d !important;
+  border: 2px solid #045a8d !important;
+  /* opacity: 1.0!important; */
+}
+
+.middle-header {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.middle-element {
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #525252;
+  color: white;
+  opacity: 1.0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 7%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.icon {
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.right-header {
+  position: fixed;
+  right: 5px;
+  top: 10px;
+}
+
+.custom-button:link,
+.custom-button:visited {
+  text-decoration: none;
+  color: #74a9cf;
+  padding: 2px;
+  /* border: 2px solid white; */
+}
+.custom-button:hover {
+  text-decoration: none;
+  color: #045a8d;
+  /* border: 2px dotted #045a8d; */
+  /* opacity: 0.8!important; */
+}
+
+.custom-button-red:link,
+.custom-button-red:visited {
+  text-decoration: none;
+  color: #fc9272;
+  padding: 2px;
+  /* border: 2px solid white; */
+}
+.custom-button-red:hover {
+  text-decoration: none;
+  color: #e41a1c;
+  /* border: 2px dotted #e41a1c; */
+  /* opacity: 0.8!important; */
+}
