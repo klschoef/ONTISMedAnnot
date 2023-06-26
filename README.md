@@ -36,3 +36,6 @@
 3. Clone the repository at another location (Skip this step if you simply want to overwrite the current database)
 4. Run `./setup.sh` at to recreate an empty database and a new config folder (Be sure to use the same name database name used when running the backup in step 2)
 5. Copy Run `./config/restore_db.sh` and `./config/db_dump.sql` to the new config folder to restore the exported database into the newly created one
+
+## Acknowledgement
+This work was funded by the EFRE, REACT-EU and Carinthian Economic Promotion Fund Programme (Project ONTIS, Contract No. KWF-3520|34826|50900).
